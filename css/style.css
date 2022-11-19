@@ -20,6 +20,7 @@ body {
 	--brand-color6: #757575;
 	--brand-color7: #f5f4fa;
 	--brand-color8: #afb1b8;
+	--transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Logo */
@@ -29,7 +30,7 @@ body {
 .logo {
 	color: var(--brand-color2);
 	text-decoration: none;
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: var(--transition);
 }
 
 .logo__web {
@@ -419,10 +420,7 @@ body {
 	fill: var(--brand-color8);
 }
 
-.icon-antenna1,
-.icon-clock1,
-.icon-diagram1,
-.icon-astronaut1 {
+.loremipsum__icon {
 	background-color: var(--brand-color7);
 	border-radius: 4px;
 }
@@ -658,7 +656,7 @@ body {
 	margin: 0;
 }
 
-.sidetitle {
+.loremipsum__title {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
@@ -693,7 +691,7 @@ body {
 	gap: 10px;
 	padding-top: 20px;
 }
-.text1 {
+.loremipsum__text {
 	flex-basis: auto;
 	margin-top: 10px;
 	margin-bottom: 0;
