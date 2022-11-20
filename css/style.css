@@ -350,6 +350,32 @@ body {
 	gap: 10px;
 }
 
+/* customers */
+
+.customers__logoicon {
+	fill: var(--brand-color8);
+	border: 1px solid var(--brand-color8); /* dodać do var */
+	border-radius: 4px;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers {
+	display: flex;
+	list-style: none;
+	gap: 30px;
+	margin-top: 50px;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.customers__logoicon:hover {
+	border-color: var(--brand-color1);
+}
+
+.customers__link:hover .customers__logoicon {
+	fill: var(--brand-color1);
+}
 .alljob {
 	display: flex;
 	list-style: none;
@@ -417,48 +443,6 @@ body {
 	padding: 0 15px;
 }
 
-.customers {
-	display: flex;
-	list-style: none;
-	gap: 30px;
-	margin-top: 50px;
-	margin-bottom: 0;
-	padding-left: 0;
-}
-.customerborder {
-	border: 1px solid var(--brand-color8); /* dodać do var */
-	border-radius: 4px;
-	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-		border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.customerborder:hover {
-	border-color: var(--brand-color1);
-}
-
-.customerslink:hover .icon-logo5 {
-	fill: var(--brand-color1);
-	/* border: 1px solid var(--brand-color1); */
-}
-.customerslink:hover .icon-logo4 {
-	fill: var(--brand-color1);
-	/* border: 1px solid var(--brand-color1); */
-}
-.customerslink:hover .icon-logo3 {
-	fill: var(--brand-color1);
-	/* border: 1px solid var(--brand-color1); */
-}
-.customerslink:hover .icon-logo2 {
-	fill: var(--brand-color1);
-	/* border: 1px solid var(--brand-color1); */
-}
-.customerslink:hover .icon-logo1 {
-	fill: var(--brand-color1);
-	/* border: 1px solid var(--brand-color1); */
-}
-.customerslink:hover .icon-logo {
-	fill: var(--brand-color1);
-	/* border: 1px solid var(--brand-color1); */
-}
 .footer-background {
 	background-color: var(--brand-color4);
 	color: var(--brand-color3);
@@ -486,16 +470,8 @@ body {
 .footer-icon-linkedin1 {
 	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
-	/* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 	fill: var(--brand-color3);
 }
-/* .footer-icon-instagram2:hover,
-.footer-icon-twitter1:hover,
-.footer-icon-facebook1:hover,
-.footer-icon-linkedin1:hover {
-	fill: var(--brand-color3);
-	background-color: var(--brand-color1);
-} */
 
 .gap {
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -533,15 +509,6 @@ body {
 .icon-twitter1,
 .icon-facebook1,
 .icon-linkedin1 {
-	fill: var(--brand-color8);
-}
-
-.icon-logo,
-.icon-logo1,
-.icon-logo2,
-.icon-logo3,
-.icon-logo4,
-.icon-logo5 {
 	fill: var(--brand-color8);
 }
 
