@@ -1,8 +1,14 @@
 {
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
-	"prettier.bracketSameLine": true,
-	"prettier.jsxSingleQuote": true,
-	"prettier.useTabs": true,
-	"liveServer.settings.port": 5501
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "compressed",
+			"extensionName": ".min.css",
+			"savePath": "/css"
+		}
+	],
+	"liveSassCompile.settings.excludeList": [
+		"/**/node_modules/**",
+		"/.vscode/**"
+	],
+	"liveSassCompile.settings.generateMap": true
 }
