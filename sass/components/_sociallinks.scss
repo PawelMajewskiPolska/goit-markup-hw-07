@@ -1,3 +1,8 @@
+.sociallinks {
+	display: flex;
+	list-style: none;
+	gap: 10px;
+}
 .sociallinks__icon svg {
 	border-radius: 50%;
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -11,14 +16,4 @@
 
 .socialicon {
 	fill: var(--brand-color8);
-}
-.socialicon-footer {
-	background-color: rgba(255, 255, 255, 0.1);
-	border-radius: 50%;
-	fill: var(--brand-color3);
-}
-.sociallinks {
-	display: flex;
-	list-style: none;
-	gap: 10px;
 }

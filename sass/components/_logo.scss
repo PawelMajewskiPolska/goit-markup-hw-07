@@ -25,4 +25,11 @@
 		color: var(--brand-color3);
 		transition: var(--transition);
 	}
+	&__studio:focus {
+		color: var(--brand-color1);
+	}
+
+	&__studio:hover {
+		color: var(--brand-color1);
+	}
 }
