@@ -1,4 +1,4 @@
-.maintitle {
+.main-title {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -14,7 +14,7 @@
 	padding-bottom: 200px;
 }
 
-.maintitle__text {
+.main-title__text {
 	font-family: var(--font-family2);
 	font-size: 44px;
 	font-weight: 900;

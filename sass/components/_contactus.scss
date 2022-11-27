@@ -41,8 +41,8 @@
 	}
 }
 
-.mailfooter__link,
-.phonefooter__link {
+.mail-footer__link,
+.phone-footer__link {
 	font-size: var(--font-family2);
 	font-size: 14px;
 	line-height: 1.71;
@@ -73,13 +73,13 @@
 	fill: var(--brand-color6);
 	transition: var(--transition);
 }
-.contactus {
+.contact-us {
 	padding: 0;
 	display: flex;
 	list-style: none;
 	justify-content: space-between;
 }
-.contactusfooter {
+.contact-us-footer {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;

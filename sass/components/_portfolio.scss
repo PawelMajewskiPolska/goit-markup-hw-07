@@ -24,7 +24,7 @@
 	}
 }
 
-.portfoliomenu__link:not(:last-child) {
+.portfolio-menu__link:not(:last-child) {
 	padding-right: 8px;
 }
 .portfolio__title {
@@ -44,7 +44,7 @@
 	border-top: none;
 	width: 370px;
 }
-.portfoliomenu {
+.portfolio-menu {
 	display: flex;
 	list-style: none;
 	justify-content: center;
@@ -71,7 +71,7 @@
 	transform: translatey(100%);
 	transition: var(--transition);
 }
-.portfolio__overlaytext {
+.portfolio__overlay-text {
 	font-family: var(--font-family2);
 	font-size: 18px;
 	line-height: 1.55;

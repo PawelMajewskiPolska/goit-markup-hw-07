@@ -1,4 +1,4 @@
-.customers__logoicon {
+.customers__logo-icon {
 	fill: var(--brand-color8);
 	border: 1px solid var(--brand-color8); /* dodać do var */
 	border-radius: 4px;
@@ -19,6 +19,6 @@
 	padding-left: 0;
 }
 
-.customers__link:hover .customers__logoicon {
+.customers__link:hover .customers__logo-icon {
 	fill: var(--brand-color1);
 }

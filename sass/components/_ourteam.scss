@@ -1,4 +1,4 @@
-.ourteam__specialistname {
+.our-team__specialist-name {
 	font-family: var(--font-family2);
 	font-weight: 500;
 	line-height: 1.19;
@@ -9,7 +9,7 @@
 	margin: 0;
 }
 
-.ourteam__specialistposition {
+.our-team__specialist-position {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: var(--brand-color6);
@@ -17,7 +17,7 @@
 	padding-top: 10px;
 	padding-bottom: 16px;
 }
-.ourteam__frame {
+.our-team__frame {
 	border-style: solid;
 	background-color: var(--brand-color3);
 	border-width: 0;
@@ -27,7 +27,7 @@
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
-.ourteam__list {
+.our-team__list {
 	display: flex;
 	list-style: none;
 	align-items: center;
@@ -37,14 +37,14 @@
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.ourteam {
+.our-team {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding-left: 0;
 	padding-right: 0;
 }
-.ourteam__sociallinks {
+.our-team__social-links {
 	margin-bottom: 30px;
 	margin-left: 32px;
 	margin-right: 32px;

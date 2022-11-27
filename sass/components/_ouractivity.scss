@@ -1,4 +1,4 @@
-.ouractivity {
+.our-activity {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -9,13 +9,13 @@
 	margin-bottom: 0;
 	padding-left: 0;
 }
-.ouractivity__frame {
+.our-activity__frame {
 	display: flex;
 	flex-direction: column;
 	position: relative;
 }
 
-.ouractivity__textframe {
+.our-activity__textframe {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -25,10 +25,10 @@
 	position: absolute;
 	bottom: 0px;
 }
-.ouractivity__photo {
+.our-activity__photo {
 	display: block;
 }
-.ouractivity__text {
+.our-activity__text {
 	font-family: var(--font-family2);
 	font-weight: 700;
 	font-size: 14px;
